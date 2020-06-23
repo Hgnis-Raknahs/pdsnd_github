@@ -1,6 +1,5 @@
 
-# Importing ggplot library
-library(ggplot2)
+library(ggplot2)# Importing ggplot library
 library(lubridate)# It would be used to extract month from date
 
 ny = read.csv('new_york_city.csv')
@@ -9,17 +8,17 @@ chi = read.csv('chicago.csv')
 
 head(ny)
 
-# View NewYork data structure
+
 str(ny)
 
 head(wash)
 
-# View Washington data structure
+
 str(wash)
 
 head(chi)
 
-# View Chicago data structure
+
 str(chi)
 
 # Creating null columns within the Washington dataset to be able to concatenate all three later
@@ -89,7 +88,7 @@ colnames(my.summary) <- c('City', 'Average.Trip.Duration')
 my.summary
 
 # Creating new city2 by binding 'New York City' and 'Chicago' data
-# Here omitting Washington data is done due to lack of information about 'Gender' and 'Birth.Year'
+
 
 city2 <- concatenation(chi,ny)      #city2 <- rbind(chi, ny)
 
