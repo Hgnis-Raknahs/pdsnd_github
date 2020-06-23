@@ -1,11 +1,11 @@
 ### Date created
-Include the date you created this project and README file.
+Created on 20June,2020
 
 ### Project Title
-Replace the Project Title
+Explore Bikeshare Data-R
 
 ### Description
-Describe what your project is about and what it does
+My project contain bikeshare data which is used for data analysis. It contains information about bike renting by the people of different gender and from three different cities(chicago, new york city, washington) in different season in a single year.
 
 ### Files used
 Include the files used
