@@ -9,3 +9,6 @@ My project contain bikeshare data which is used for data analysis. It contains i
 
 ### Files used
 files used are: .gitignore, .r, .csv, .zip, .html, .md
+
+### Software used
+software used are: Rstudio (version 1.3.959), R (version 4.0.1), Jupyter notebook
