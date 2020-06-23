@@ -9,7 +9,7 @@ chi = read.csv('chicago.csv')
 
 head(ny)
 
-# View NewYork data structure
+# View Newyork data structure
 str(ny)
 
 head(wash)
@@ -56,7 +56,7 @@ ggplot(aes(x = Month, fill = City), data = city) +
     labs(y = 'No. of Rides', x = 'Month') +
     scale_fill_manual("legend", values = c("Chicago" = "navy blue", "New York City" = "violet", "Washington" = "red"))
 
-# Load function
+# Load function link
 source("http://pcwww.liv.ac.uk/~william/R/crosstab.r")
 
 # Count and percentage of users per month
@@ -121,5 +121,5 @@ print(total_ny)
 
 # percentage of Gender(Male and Female) in Chicago
 round((total_ny / length(city2$Gender[city2$City == 'New York City']) * 100), digits = 2)
-
+# last line is not used in this program
 system('python -m nbconvert Explore_bikeshare_data.ipynb')
