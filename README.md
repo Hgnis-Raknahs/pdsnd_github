@@ -1,5 +1,5 @@
 ### Date created
-Created on 20June,2020
+Created on 20-June-2020
 
 ### Project Title
 Explore Bikeshare Data-R
