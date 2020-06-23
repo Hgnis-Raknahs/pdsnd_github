@@ -6,20 +6,20 @@ ny = read.csv('new_york_city.csv')
 wash = read.csv('washington.csv')
 chi = read.csv('chicago.csv')
 
-head(ny)
 
 
-str(ny)
-
-head(wash)
 
 
-str(wash)
-
-head(chi)
 
 
-str(chi)
+
+
+
+
+
+
+
+
 
 # Creating null columns within the Washington dataset to be able to concatenate all three later
 wash$Gender <- NA
@@ -38,7 +38,7 @@ concatenation <- function(d1, d2) {
 # Concatenating all three datasets together as "city"
 city <- concatenation(ny,wash)     #city <- rbind(ny, wash)
 city <- concatenation(city,chi)    #city <- rbind(city, chi)
-head(city)
+
 
 # Re-formatting of date columns
 city$Start.Time <- ymd_hms(city$Start.Time)
